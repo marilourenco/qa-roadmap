@@ -20,7 +20,7 @@ Por isso o projeto tem três grandes espaços:
 
 Abra diretamente no browser — sem servidor, sem instalação, sem dependências:
 
-**[marilourenco.github.io/qa-roadmap](https://marilourenco.github.io/qa-roadmap/)**
+**[Comunidade de Qualidade]([https://marilourenco.github.io/qa-roadmap/](https://comunidadedequalidade.github.io/roadmap-de-qualidade/))**
 
 ---
 
