@@ -20,7 +20,7 @@ Por isso o projeto tem três grandes espaços:
 
 Abra diretamente no browser — sem servidor, sem instalação, sem dependências:
 
-**[comunidadedequalidade.github.io/roadmap-de-qualidade](https://comunidadedequalidade.github.io/roadmap)**
+**[comunidadedequalidade.github.io/roadmap](https://comunidadedequalidade.github.io/roadmap)**
 
 ---
 
