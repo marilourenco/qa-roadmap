@@ -12,7 +12,7 @@ Por isso o projeto tem três grandes espaços:
 
 - 🎯 **Trilha QA** — o caminho estruturado do Júnior ao Sênior, com módulos, laboratórios e recursos para quem trabalha diretamente com qualidade
 - 🤝 **Qualidade para Outros Papéis** — trilhas independentes para Devs, POs, PMs, DevOps, UX, Analistas de Negócio e Scrum Masters aprenderem qualidade pela perspectiva do seu próprio papel
-- 📖 **Glossário de Qualidade** — todos os termos da comunidade em um único lugar, com busca rápida e definições em português
+- 📖 **Glossário de Qualidade** — 200 termos da comunidade em um único lugar, com busca rápida e definições em português
 
 ---
 
@@ -28,24 +28,31 @@ Abra diretamente no browser — sem servidor, sem instalação, sem dependência
 
 ### 🎯 Trilha QA
 
-| Nível | Módulos | Labs | Exercícios |
-|-------|---------|------|------------|
-| 🟢 Júnior | 9 | 18 | 30+ |
-| 🟠 Pleno | 15 | 30+ | 55+ |
-| 🟣 Sênior | 18 | 35+ | 65+ |
-| ∞ Fundamentos Atemporais | 7 | 14 | 28+ |
+| Nível | Módulos | Laboratórios | Exercícios |
+|-------|---------|--------------|------------|
+| 🟢 Júnior | 14 | 14 | 62 |
+| 🟠 Pleno | 15 | 25 | 100 |
+| 🟣 Sênior | 19 | 19 | 78 |
+| ∞ Fundamentos Atemporais | 9 | 9 | 36 |
+| **Total** | **57** | **67** | **276** |
 
 #### 🟢 Júnior — Fundamentos
-Mindset de QA · Tipos de Teste · Testes Manuais e Documentação · Metodologias Ágeis · Técnicas de Teste · Git e Versionamento · Teste Exploratório · Gestão de Bugs · SQL para QA · HTTP para QA · Portfólio e Carreira · Intro à Automação
 
-#### 🟠 Pleno — Automação
-Automação Frontend (Cypress, Playwright, Selenium) · Automação de API (Postman, REST Assured, Karate) · Tipos e Estratégias de Teste · Acessibilidade (WCAG) · CI/CD e Pipelines · Gestão de Testes · Monitoramento · IA para Produtividade · Feature Flags · Gestão de Ambientes · **Segurança para QA (OWASP)** · **Performance para QA (k6)** · **Testes de Contrato (Pact)**
+Fundamentos de QA · Tipos de Teste · Documentação e Testes Manuais · Metodologias Ágeis e o Papel do QA · Técnicas de Teste Básicas · Git e Controle de Versão · Teste Exploratório · Acessibilidade para QA · Reporte e Gestão de Bugs · SQL para QA · HTTP para QA · Portfólio e Carreira em QA · Introdução à Automação de Testes · Mentalidade QA: seu papel no time
+
+#### 🟠 Pleno — Automação e Estratégia
+
+Automação de Testes (Cypress, Playwright, Selenium, Postman, REST Assured, Karate, Robot Framework, k6, Cucumber, Pact, WireMock, Hoverfly) · Tipos de Teste em Profundidade · Estratégias e Cobertura · Acessibilidade (WCAG + axe-core) · CI/CD e Pipelines · Gestão de Testes · Monitoramento e Relatórios · IA como Ferramenta de Produtividade · Feature Flags e Rollout Gradual · Gestão de Ambientes · Segurança para QA (OWASP) · Performance para QA (k6) · Testes de Contrato (Pact) · Shift-Left Testing · Mentalidade QA: influência e protagonismo
 
 #### 🟣 Sênior — Arquitetura e Liderança
-Arquitetura de Testes · Performance e Carga · Segurança · Mobile Avançado · Observabilidade · IA e Agentes · Liderança Técnica · SAFe e Escala · Qualidade no SDLC · Chaos Engineering · TestOps · Compliance · Microsserviços · Data Literacy · Quality Engineering · FinOps de Testes · **Shift-Right Testing**
+
+Arquitetura e Design de Testes · Performance e Testes de Carga · Testes de Segurança · Automação Mobile Avançada · Observabilidade e Monitoramento em Produção · IA Avançada e Agentes de Teste · Liderança Técnica em QA · SAFe, Qualidade em Escala e DevOps Avançado · Qualidade no Ciclo de Desenvolvimento · Chaos Engineering · TestOps · Compliance e Qualidade Regulatória · Testes em Microsserviços · Literacia de Dados para QA · Decisão Estratégica em QA · Quality Engineering vs. QA · FinOps de Testes · Mentalidade QA: arquitetando a cultura de qualidade · Shift-Right Testing
 
 #### ∞ Fundamentos Atemporais
-Competências que não pertencem a um nível — pertencem a todos os níveis ao mesmo tempo: Comunicação e Colaboração · Documentação de Testes · Mentalidade de Qualidade · Ética e Reporte Honesto · IA no dia a dia · Gestão de Tempo e Priorização · Qualidade no SDLC
+
+Competências que não pertencem a um nível — pertencem a todos os níveis ao mesmo tempo:
+
+Comunicação e Colaboração com o Time · Documentação de Testes · Mentalidade de Qualidade · Ética e Reporte Honesto · IA no Dia a Dia de QA · Gestão de Tempo e Priorização · Qualidade no Ciclo de Desenvolvimento (SDLC) · Estratégia de Qualidade de Ponta a Ponta · Soft Skills para QA
 
 ---
 
@@ -53,22 +60,35 @@ Competências que não pertencem a um nível — pertencem a todos os níveis ao
 
 Cada trilha é focada no que aquele papel faz no dia a dia para ser corresponsável pela qualidade das entregas — sem virar QA.
 
-| Trilha | Foco | Módulos |
-|--------|------|---------|
-| 💻 Desenvolvedor | Código testável, TDD, code review, pipeline | 6 |
-| 🎯 PO / PM | Critérios de aceite, DoD, bugs, métricas | 5 |
-| ⚙️ DevOps / SRE | Gates, observabilidade, confiabilidade, incidentes | 5 |
-| 🎨 UX / Design | Usabilidade, estados de interface, acessibilidade, handoff | 5 |
-| 📋 Analista de Negócio | Requisitos testáveis, rastreabilidade, regras, cenários | 5 |
-| 🔄 Scrum Master / Agile Coach | Processo, cerimônias, impedimentos, cultura, métricas | 5 |
+| Trilha | Módulos |
+|--------|---------|
+| 💻 Desenvolvedor | 7 |
+| 🎯 PO / PM | 6 |
+| ⚙️ DevOps / SRE | 6 |
+| 🎨 UX / Design | 6 |
+| 📋 Analista de Negócio | 6 |
+| 🔄 Scrum Master / Agile Coach | 6 |
 
 ---
 
 ### 📖 Glossário de Qualidade
 
-150+ termos organizados em 15 categorias, cobrindo todas as trilhas da comunidade:
+**200 termos** organizados em **17 categorias**, cobrindo todas as trilhas da comunidade:
 
-Fundamentos de Teste · Tipos e Abordagens · Processos e Metodologias · Automação · Performance · API e Técnico · Gestão e Qualidade · Desenvolvimento e Código · DevOps e Pipeline · UX e Design · Produto e Negócio · Agile e Scrum · Segurança · Performance e Carga · Testes de Contrato e Integração
+Fundamentos de Teste · Tipos e Abordagens · Processos e Metodologias · Automação · Performance · API e Técnico · Gestão e Qualidade · Desenvolvimento e Código · DevOps e Pipeline · UX e Design · Produto e Negócio · Agile e Scrum · Segurança · Performance e Carga · Testes de Contrato e Integração · Infraestrutura e Ambientes · IA e Qualidade
+
+---
+
+### 🔢 Números do projeto
+
+- **530** links únicos para recursos externos (artigos, documentações, cursos, ferramentas)
+- **382** cards de conteúdo distribuídos nas trilhas
+- **276** exercícios de laboratório guiados
+- **200** termos no glossário em português
+- **57** módulos QA com laboratório próprio
+- **37** módulos de trilhas para outros papéis
+- **191** domínios diferentes referenciados nos recursos
+- **0** dependências externas — funciona 100% offline após o primeiro carregamento
 
 ---
 
@@ -77,10 +97,11 @@ Fundamentos de Teste · Tipos e Abordagens · Processos e Metodologias · Automa
 O conteúdo foi estruturado a partir do **[roadmap.sh/qa](https://roadmap.sh/qa)** e expandido com:
 
 - Contexto em português para profissionais brasileiros
-- Laboratórios práticos com ferramentas do mercado atual
+- Laboratórios práticos guiados para cada tópico de conteúdo
 - Trilhas para outros papéis além do QA — uma abordagem que não existe em nenhum outro roadmap
-- Módulos de IA, TestOps, Shift-Right, Contrato e Compliance ausentes no roadmap original
+- Módulos de IA, TestOps, Shift-Right, Testes de Contrato, Chaos Engineering, FinOps e Compliance ausentes no roadmap original
 - Glossário unificado cobrindo toda a cadeia de qualidade de software
+- Mapa de ferramentas e mapa de carreira integrados
 
 ---
 
@@ -94,7 +115,7 @@ O conteúdo foi estruturado a partir do **[roadmap.sh/qa](https://roadmap.sh/qa)
 
 ## 🤖 Como foi criado
 
-Este projeto foi desenvolvido em colaboração com o **[Claude](https://claude.ai)**, assistente de IA da Anthropic — desde a estrutura de navegação e identidade visual até cada módulo, exercício e laboratório.
+Este projeto foi desenvolvido em colaboração com o **[Claude](https://claude.ai)** (Anthropic) — desde a estrutura de navegação e identidade visual até cada módulo, exercício e laboratório.
 
 ---
 
